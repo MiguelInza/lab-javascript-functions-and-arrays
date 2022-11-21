@@ -293,6 +293,7 @@ function greatestProduct(data) {
   }
   //console.log(Math.max(...prodv));
   console.log(Math.max(Math.max(...prodh), Math.max(...prodv)));
+  return(Math.max(Math.max(...prodh), Math.max(...prodv)));
 }
 greatestProduct(matrix);
 
